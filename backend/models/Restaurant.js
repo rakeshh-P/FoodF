@@ -21,6 +21,9 @@ const restaurantSchema = new mongoose.Schema({
     },
     description: String,
     address: String,
+    phone: String,
+    supportsCOD: Boolean,
+    supportsMobilePayment: Boolean,
     image: String,
     menu: [menuItemSchema]
 }, { timestamps: true });

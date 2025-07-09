@@ -19,6 +19,9 @@ const restaurants = [
     name: "Bella Vista Italian Bistro",
     description: "Italian cuisine in Downtown Manhattan, NY",
     address: "456 Mulberry Street, New York, NY 10012",
+    phone: "(212) 555-1001",
+    supportsCOD: true,
+    supportsMobilePayment: true,
     image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500",
     menu: [
       {
@@ -77,7 +80,10 @@ const restaurants = [
     name: "Tokyo Sakura Sushi Bar",
     description: "Japanese cuisine in Little Tokyo, Los Angeles, CA",
     address: "123 East 1st Street, Los Angeles, CA 90012",
-    image: "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=500",
+    phone: "(213) 555-2002",
+    supportsCOD: true,
+    supportsMobilePayment: true,
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=500",
     menu: [
       {
         name: "Omakase Chef's Selection",
@@ -143,6 +149,9 @@ const restaurants = [
     name: "Spice Route Indian Kitchen",
     description: "Indian cuisine in Curry Hill, New York, NY",
     address: "321 Lexington Avenue, New York, NY 10016",
+    phone: "(212) 555-1234",
+    supportsCOD: true,
+    supportsMobilePayment: true,
     image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=500",
     menu: [
       {
@@ -208,6 +217,9 @@ const restaurants = [
     name: "El Corazón Mexican Cantina",
     description: "Mexican cuisine in Mission District, San Francisco, CA",
     address: "654 Mission Street, San Francisco, CA 94105",
+    phone: "(415) 555-3003",
+    supportsCOD: true,
+    supportsMobilePayment: false,
     image: "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=500",
     menu: [
       {
@@ -224,13 +236,13 @@ const restaurants = [
         category: "Enchiladas",
         image: "https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=500"
       },
-      {
-        name: "Guacamole & Chips",
-        description: "Fresh avocado dip with lime, cilantro, and jalapeños served with tortilla chips",
-        price: 9.95,
-        category: "Appetizer",
-        image: "https://images.unsplash.com/photo-1553979459-d2229ba7433a?w=500"
-      },
+      // {
+      //   name: "Guacamole & Chips",
+      //   description: "Fresh avocado dip with lime, cilantro, and jalapeños served with tortilla chips",
+      //   price: 9.95,
+      //   category: "Appetizer",
+      //   image: "https://images.unsplash.com/photo-1553979459-d2229ba7433a?w=500"
+      // },
       {
         name: "Carne Asada Burrito",
         description: "Grilled steak with rice, beans, cheese, salsa, and sour cream in flour tortilla",
@@ -238,13 +250,13 @@ const restaurants = [
         category: "Burritos",
         image: "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=500"
       },
-      {
-        name: "Chiles Rellenos",
-        description: "Roasted poblano peppers stuffed with cheese, battered and fried",
-        price: 16.75,
-        category: "Main Course",
-        image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=500"
-      }
+      // {
+      //   name: "Chiles Rellenos",
+      //   description: "Roasted poblano peppers stuffed with cheese, battered and fried",
+      //   price: 16.75,
+      //   category: "Main Course",
+      //   image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=500"
+      // }
     ]
   },
   // Maharaja Palace
@@ -252,6 +264,9 @@ const restaurants = [
     name: "Maharaja Palace",
     description: "North Indian cuisine in Punjabi Bagh, New Delhi",
     address: "Block A, Punjabi Bagh West, New Delhi 110026",
+    phone: "+91 11 5555 4004",
+    supportsCOD: true,
+    supportsMobilePayment: true,
     image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=500",
     menu: [
       {
@@ -296,6 +311,9 @@ const restaurants = [
     name: "Spice Palace",
     description: "Authentic North Indian cuisine with traditional tandoor specialties",
     address: "Mumbai, Maharashtra",
+    phone: "+91 22 5555 5005",
+    supportsCOD: false,
+    supportsMobilePayment: true,
     image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
     menu: [
       {
@@ -305,13 +323,13 @@ const restaurants = [
         category: "Main Course",
         image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
       },
-      {
-        name: "Chicken Biryani",
-        description: "Fragrant basmati rice layered with spiced chicken and garnished with fried onions",
-        price: 520,
-        category: "Rice & Biryani",
-        image: "https://images.unsplash.com/photo-1563379091339-03246963d96c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-      },
+      // {
+      //   name: "Chicken Biryani",
+      //   description: "Fragrant basmati rice layered with spiced chicken and garnished with fried onions",
+      //   price: 520,
+      //   category: "Rice & Biryani",
+      //   image: "https://images.unsplash.com/photo-1563379091339-03246963d96c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      // },
       {
         name: "Tandoori Chicken",
         description: "Clay oven roasted chicken marinated in yogurt and traditional spices",
@@ -326,64 +344,70 @@ const restaurants = [
         category: "Vegetarian Main Course",
         image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
       },
-      {
-        name: "Garlic Naan",
-        description: "Fresh baked bread topped with garlic and herbs from tandoor oven",
-        price: 80,
-        category: "Bread",
-        image: "https://images.unsplash.com/photo-1619221708387-f6f5d6dd6771?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-      }
+      // {
+      //   name: "Garlic Naan",
+      //   description: "Fresh baked bread topped with garlic and herbs from tandoor oven",
+      //   price: 80,
+      //   category: "Bread",
+      //   image: "https://images.unsplash.com/photo-1619221708387-f6f5d6dd6771?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      // }
     ]
   },
-  // Last valid restaurant object
-  {
-    name: "Hard Rock Cafe",
-    description: "American cuisine and live music bar",
-    address: "St. Marks Road, Bengaluru",
-    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80",
-    menu: [
-      {
-        name: "Classic Burger",
-        description: "Grilled beef patty with cheddar, lettuce, tomato, and onion",
-        price: 450,
-        category: "Burger",
-        image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=500"
-      },
-      {
-        name: "BBQ Ribs",
-        description: "Slow-cooked pork ribs glazed in BBQ sauce",
-        price: 600,
-        category: "Main Course",
-        image: "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=500"
-      },
-      {
-        name: "Caesar Salad",
-        description: "Romaine lettuce, Caesar dressing, croutons, and parmesan cheese",
-        price: 300,
-        category: "Salad",
-        image: "https://images.unsplash.com/photo-1589308078054-8328bdec33cd?w=500"
-      },
-      {
-        name: "Buffalo Wings",
-        description: "Spicy chicken wings served with blue cheese dip",
-        price: 350,
-        category: "Appetizer",
-        image: "https://images.unsplash.com/photo-1606788075760-25e6c8d90c1a?w=500"
-      },
-      {
-        name: "Chocolate Milkshake",
-        description: "Classic creamy chocolate shake topped with whipped cream",
-        price: 250,
-        category: "Beverage",
-        image: "https://images.unsplash.com/photo-1589220217521-54053aa3f4f4?w=500"
-      }
-    ]
-  },
+  // Hard Rock Cafe
+  // {
+  //   name: "Hard Rock Cafe",
+  //   description: "American cuisine and live music bar",
+  //   address: "St. Marks Road, Bengaluru",
+  //   phone: "+91 80 5555 6006",
+  //   supportsCOD: true,
+  //   supportsMobilePayment: false,
+  //   image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80",
+  //   menu: [
+  //     {
+  //       name: "Classic Burger",
+  //       description: "Grilled beef patty with cheddar, lettuce, tomato, and onion",
+  //       price: 450,
+  //       category: "Burger",
+  //       image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=500"
+  //     },
+  //     {
+  //       name: "BBQ Ribs",
+  //       description: "Slow-cooked pork ribs glazed in BBQ sauce",
+  //       price: 600,
+  //       category: "Main Course",
+  //       image: "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=500"
+  //     },
+  //     {
+  //       name: "Caesar Salad",
+  //       description: "Romaine lettuce, Caesar dressing, croutons, and parmesan cheese",
+  //       price: 300,
+  //       category: "Salad",
+  //       image: "https://images.unsplash.com/photo-1589308078054-8328bdec33cd?w=500"
+  //     },
+  //     {
+  //       name: "Buffalo Wings",
+  //       description: "Spicy chicken wings served with blue cheese dip",
+  //       price: 350,
+  //       category: "Appetizer",
+  //       image: "https://images.unsplash.com/photo-1606788075760-25e6c8d90c1a?w=500"
+  //     },
+  //     {
+  //       name: "Chocolate Milkshake",
+  //       description: "Classic creamy chocolate shake topped with whipped cream",
+  //       price: 250,
+  //       category: "Beverage",
+  //       image: "https://images.unsplash.com/photo-1589220217521-54053aa3f4f4?w=500"
+  //     }
+  //   ]
+  // },
   
     {
       "name": "Nagarjuna",
       "description": "Authentic Andhra style cuisine, famous for its spicy preparations and traditional banana leaf meals.",
       "address": "44/1, Residency Road, Bengaluru, Karnataka 560025, India",
+      "phone": "+91 80 5555 7007",
+      "supportsCOD": true,
+      "supportsMobilePayment": true,
       "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
       "menu": [
         {
@@ -427,6 +451,9 @@ const restaurants = [
       "name": "Palamuru Grill",
       "description": "A popular destination for authentic Telangana cuisine, known for its rustic flavors and spicy meat dishes.",
       "address": "Ayyappa Society, Madhapur, Hyderabad, Telangana 500081, India",
+      "phone": "+91 40 5555 8008",
+      "supportsCOD": true,
+      "supportsMobilePayment": false,
       "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
       "menu": [
         {
@@ -473,53 +500,59 @@ const restaurants = [
         }
       ]
     },
-    {
-      "name": "Indian Accent",
-      "description": "A critically acclaimed restaurant offering a unique take on contemporary Indian cuisine, blending global ingredients with traditional flavors.",
-      "address": "The Lodhi, Lodhi Rd, CGO Complex, Pragati Vihar, New Delhi, Delhi 110003, India",
-      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
-      "menu": [
-        {
-          "name": "Meetha Achaar Pork Ribs",
-          "description": "Tender pork ribs glazed with a sweet and sour mango pickle, served with sundried mango and toasted kalonji seeds.",
-          "price": 2200,
-          "category": "Main Course",
-          "image": "https://images.unsplash.com/photo-1634818276927-22b6b3b28b4c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
-        },
-        {
-          "name": "Kashmiri Morel Musallam",
-          "description": "Exotic Kashmiri morels cooked in a rich, creamy gravy with a hint of saffron and traditional spices, a vegetarian delight.",
-          "price": 1950,
-          "category": "Vegetarian Main",
-          "image": "https://images.unsplash.com/photo-1628139394539-77c171963b6a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
-        },
-        {
-          "name": "Blue Cheese Naan",
-          "description": "A creative twist on the classic naan, stuffed with pungent blue cheese and served warm and fluffy from the tandoor.",
-          "price": 550,
-          "category": "Bread",
-          "image": "https://images.unsplash.com/photo-1628198797932-781d4a3501a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
-        },
-        {
-          "name": "Daulat Ki Chaat",
-          "description": "An ethereal and light dessert from Old Delhi, a frothy milk-based sweet garnished with saffron, pistachios, and silver leaf.",
-          "price": 850,
-          "category": "Dessert",
-          "image": "https://images.unsplash.com/photo-1582590013355-620941197825?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
-        },
-        {
-          "name": "Ghee Roast Soy Boti",
-          "description": "A vegetarian take on a classic, with soy chunks marinated in a fiery ghee roast masala and grilled to perfection.",
-          "price": 1650,
-          "category": "Appetizer",
-          "image": "https://images.unsplash.com/photo-1626776871329-3c721d7a346e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
-        }
-      ]
-    },
+    // {
+    //   "name": "Indian Accent",
+    //   "description": "A critically acclaimed restaurant offering a unique take on contemporary Indian cuisine, blending global ingredients with traditional flavors.",
+    //   "address": "The Lodhi, Lodhi Rd, CGO Complex, Pragati Vihar, New Delhi, Delhi 110003, India",
+    //   "phone": "+91 11 5555 9009",
+    //   "supportsCOD": false,
+    //   "supportsMobilePayment": true,
+    //   "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+    //   "menu": [
+    //     {
+    //       "name": "Meetha Achaar Pork Ribs",
+    //       "description": "Tender pork ribs glazed with a sweet and sour mango pickle, served with sundried mango and toasted kalonji seeds.",
+    //       "price": 2200,
+    //       "category": "Main Course",
+    //       "image": "https://images.unsplash.com/photo-1634818276927-22b6b3b28b4c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
+    //     },
+    //     {
+    //       "name": "Kashmiri Morel Musallam",
+    //       "description": "Exotic Kashmiri morels cooked in a rich, creamy gravy with a hint of saffron and traditional spices, a vegetarian delight.",
+    //       "price": 1950,
+    //       "category": "Vegetarian Main",
+    //       "image": "https://images.unsplash.com/photo-1628139394539-77c171963b6a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+    //     },
+    //     {
+    //       "name": "Blue Cheese Naan",
+    //       "description": "A creative twist on the classic naan, stuffed with pungent blue cheese and served warm and fluffy from the tandoor.",
+    //       "price": 550,
+    //       "category": "Bread",
+    //       "image": "https://images.unsplash.com/photo-1628198797932-781d4a3501a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+    //     },
+    //     {
+    //       "name": "Daulat Ki Chaat",
+    //       "description": "An ethereal and light dessert from Old Delhi, a frothy milk-based sweet garnished with saffron, pistachios, and silver leaf.",
+    //       "price": 850,
+    //       "category": "Dessert",
+    //       "image": "https://images.unsplash.com/photo-1582590013355-620941197825?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+    //     },
+    //     {
+    //       "name": "Ghee Roast Soy Boti",
+    //       "description": "A vegetarian take on a classic, with soy chunks marinated in a fiery ghee roast masala and grilled to perfection.",
+    //       "price": 1650,
+    //       "category": "Appetizer",
+    //       "image": "https://images.unsplash.com/photo-1626776871329-3c721d7a346e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+    //     }
+    //   ]
+    // },
     {
       "name": "Truffles",
       "description": "An iconic Bengaluru institution famous for its juicy burgers, hearty American comfort food, and vibrant, youthful atmosphere.",
       "address": "28, St Mark's Road, Bengaluru, Karnataka 560001, India",
+      "phone": "+91 80 5555 1010",
+      "supportsCOD": true,
+      "supportsMobilePayment": true,
       "image": "https://images.unsplash.com/photo-1508615039623-a25605d2b022?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
       "menu": [
         {
@@ -563,6 +596,9 @@ const restaurants = [
       "name": "Chili's Grill & Bar",
       "description": "A leading American casual dining restaurant, offering a fun and energetic atmosphere with a menu of classic Tex-Mex and American favorites.",
       "address": "Orion Mall, Dr. Rajkumar Road, Malleshwaram West, Bengaluru, Karnataka 560055, India",
+      "phone": "+91 80 5555 1111",
+      "supportsCOD": false,
+      "supportsMobilePayment": true,
       "image": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
       "menu": [
         {
@@ -591,7 +627,7 @@ const restaurants = [
           "description": "Tender boneless wings tossed in a spicy sauce and topped with melted cheese, bacon, and green onions.",
           "price": 450,
           "category": "Appetizer",
-          "image": "https://images.unsplash.com/photo-1598514983318-7613c5fb3ea7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          "image": "https://images.unsplash.com/photo-1598514983318-7613c5fb8da7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
         },
         {
           "name": "Classic Nachos",
@@ -658,6 +694,9 @@ const restaurants = [
       name: "Southern Comfort Kitchen",
       description: "Authentic Southern comfort food with a modern twist, featuring house-smoked meats, fresh cornbread, and traditional sides",
       address: "892 Peachtree Street, Atlanta, GA 30309",
+      phone: "+91 80 6555 1212",
+      supportsCOD: true,
+      supportsMobilePayment: false,
       image: "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&fit=crop&w=1920&q=80",
       menu: [
         {
@@ -716,6 +755,9 @@ const restaurants = [
       name: "West Coast Burger Co.",
       description: "California-style gourmet burgers made with locally sourced ingredients, craft beer, and fresh-cut fries",
       address: "2156 Sunset Boulevard, Los Angeles, CA 90026",
+      phone: "+91 80 5555 1132",
+      supportsCOD: true,
+      supportsMobilePayment: false,
       image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1920&q=80",
       menu: [
         {
@@ -767,6 +809,9 @@ const restaurants = [
       name: "Chicago Deep Dish Pizza Co.",
       description: "Authentic Chicago-style deep dish pizza with thick crust, chunky tomato sauce, and premium toppings",
       address: "1847 North Wells Street, Chicago, IL 60614",
+      phone: "+91 80 5555 1132",
+      supportsCOD: true,
+      supportsMobilePayment: false,
       image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1920&q=80",
       menu: [
         {
